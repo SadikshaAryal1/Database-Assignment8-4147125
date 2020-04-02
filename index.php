@@ -44,6 +44,7 @@ table {
       <li><a href="#"><strong><font color=#2F4F2F><i class="fa fa-fw fa-book"></i> BOOKTYPE INFORMATION</font></strong></a></li>
       <li><a href="#"><strong><font color=#2F4F2F><i class="fa fa-fw fa-user"></i> SA INFORMATION</font></strong></a></li>
       <li class="active"><a href="#"><strong><font color=#2F4F2F><i class="fa fa-fw fa-book"></i> BOOK LOAN INFORMATION</font></strong></a></li>
+      <li><a href="https://docs.google.com/document/d/11D9W7nnZJ4Ayrn1X-f0opDXH6hXw43FlCsHG3HTalyY/edit"><strong><font color=#2F4F2F><i class="fa fa-fw fa-question-circle"></i> HELP </font></strong></a></li>
       </ul> 
       
        
@@ -62,7 +63,7 @@ table {
 
 <?php
 require('connect.php');
-$result = $conn->query("select * from mytable");
+$result = $conn->query("select * from loan");
 ?>
 
 <table border="2" align="center">
