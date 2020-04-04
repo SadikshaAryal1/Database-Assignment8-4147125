@@ -1,3 +1,10 @@
+<?php
+if(isset($_POST["AddContent"]))
+{
+header('location:AddContent.php');
+}
+?>
+
 <http>
 <html lang="en">
 <head>
@@ -72,8 +79,10 @@ table {
       <input type="text" placeholder="SEARCH.." name="SEARCH">
       <button type="submit"><i class="fa fa-search"></i></button></li> 
        
-        <div class="btn">
-      <button>Add Content</button>
+      <div class="btn">
+      <form name ="form1" action="" method="post">
+      <input type ="submit" name ="AddContent" value ="Add Content">
+     </form>
       </div>
  
           </div>
