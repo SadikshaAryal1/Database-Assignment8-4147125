@@ -26,7 +26,26 @@ table{
 table {
   border-spacing: 2px;
 }
+  
+.btn button {
+  background-color: #e7e7e7; 
+  border: 1px solid #4CAF50;; 
+  color: black; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  width: 100%; 
+  display: block;
+  text:align: center;
+}
 
+.btn button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.btn button:hover {
+  background-color: #3e8e41;
+}
+  
 </style>
 
 <body>
@@ -52,7 +71,11 @@ table {
       <li class="search-brand"><a href="#"><strong><font color=Black></strong></font></a>
       <input type="text" placeholder="SEARCH.." name="SEARCH">
       <button type="submit"><i class="fa fa-search"></i></button></li> 
-         
+       
+        <div class="btn">
+      <button>Add Content</button>
+      </div>
+ 
           </div>
      </form>
      </ul>
