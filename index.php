@@ -107,6 +107,9 @@ $result = $conn->query("select * from loan");
   <td><strong><font color=navy><u>Student_ID</strong></u></font></td>
 </tr>
 
+  <?php
+var_dump($_POST);
+   ?> 
 
 <?php
 $sql = "SELECT * from loan";
