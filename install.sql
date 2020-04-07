@@ -42,7 +42,7 @@ CREATE TABLE Loan
   PRIMARY KEY (Loan_ID)
 );
 
-insert into Book values ("2020-03-25","2020-04-05","2020-04-03","2020-01-25");
+insert into Book values ("2020-03-25","2020-04-05","2020-04-03","2020-01-25" 12345678);
 insert into Book_Type values (2,"Database Application","Hardvard Press", "Sadiksha Aryal");
 
 insert into SA values ("John Lennon",101,"2020-03-25", 5000,"2020-03-26");
