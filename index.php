@@ -5,6 +5,13 @@ header('location:AddContent.php');
 }
 ?>
 
+<?php
+if(isset($_POST["AddSA"]))
+{
+header('location:AddSA.php');
+}
+?>
+
 <http>
 <html lang="en">
 <head>
@@ -82,6 +89,12 @@ table {
       <div class="btn">
       <form name ="form1" action="" method="post">
       <input type ="submit" name ="AddContent" value ="Add Content">
+     </form>
+      </div>
+        
+          <div class="btn">
+      <form name ="form2" action="" method="post">
+      <input type ="submit" name ="AddSA" value ="Add SA">
      </form>
       </div>
  
