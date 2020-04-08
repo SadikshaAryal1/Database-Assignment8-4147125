@@ -4,13 +4,14 @@
   Due_Date VARCHAR(400) NOT NULL,
   Returned_Date VARCHAR(400) NOT NULL,
   Purchase_Date VARCHAR(400) NOT NULL,
+  Book_name VARCHAR(400) NOT NULL,
 LIB_Number INT NOT NULL,
 PRIMARY KEY (LIB_Number)
 );
 CREATE TABLE Book_Type
 (
   ISBN_Number INT NOT NULL,
-  Name VARCHAR(400) NOT NULL,
+  Book_Name VARCHAR(400) NOT NULL,
   Publication_Name VARCHAR(400) NOT NULL,
   Author VARCHAR(400) NOT NULL,
   PRIMARY KEY (ISBN_Number)
@@ -34,7 +35,7 @@ CREATE TABLE _Student_
 );
 CREATE TABLE Loan
 (
-  Book_Name VARCHAR(400) NOT NULL,
+  LIB_Number INT NOT NULL,
   Author VARCHAR(400) NOT NULL,
   Due_Date VARCHAR(400) NOT NULL,
   Student_ID INT NOT NULL,
@@ -42,10 +43,10 @@ CREATE TABLE Loan
   PRIMARY KEY (Loan_ID)
 );
 
-insert into Book values ("2020-03-25","2020-04-05","2020-04-03","2020-01-25" 12345678);
+insert into Book values ("2020-03-25","2020-04-05","2020-04-03","2020-01-25", "Database Application", 100);
 insert into Book_Type values (2,"Database Application","Hardvard Press", "Sadiksha Aryal");
 
-insert into SA values ("John Lennon",101,"2020-03-25", 5000,"2020-03-26");
-insert into _Student_ values ("Paul McCartney",102,"paul@gmail.com"," 06225074414");
+insert into SA values ("John Lennon",10107,"2020-03-25", 5000,"2020-03-26");
+insert into _Student_ values ("Paul McCartney",10206,"paul@gmail.com"," 06225074414");
 
-insert into Loan values ("Database Application", "Sadiksha Aryal","2020-04-03",103, 45);
+insert into Loan values (100, "Sadiksha Aryal","2020-04-03",10305, 45);
