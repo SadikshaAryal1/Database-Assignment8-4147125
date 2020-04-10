@@ -87,10 +87,10 @@ input[type=submit]:hover {
       <a class="navbar-brand" href="#"><strong><font color=Black><i class="fa fa-fw fa-university"></i> WEBSTER LIBRARY:</strong></font></a>
     </div>
     <ul class="nav navbar-nav">
-     <li><a href="#"><strong><font color=#2F4F2F><i class="fa fa-fw fa-home"></i> HOME</font></strong></a></li>
-      <li><a href="#"><strong><font color=#2F4F2F><i class="fa fa-fw fa-book"></i> BOOK INFORMATION</font></strong></a></li>
-      <li><a href="#"><strong><font color=#2F4F2F><i class="fa fa-fw fa-book"></i> BOOKTYPE INFORMATION</font></strong></a></li>
-      <li><a href="#"><strong><font color=#2F4F2F><i class="fa fa-fw fa-user"></i> SA INFORMATION</font></strong></a></li>
+     <li><a href="HOME.php"><strong><font color=#2F4F2F><i class="fa fa-fw fa-home"></i> HOME</font></strong></a></li>
+      <li><a href="BOOK INFORMATION.php"><strong><font color=#2F4F2F><i class="fa fa-fw fa-book"></i> BOOK INFORMATION</font></strong></a></li>
+      <li><a href="BOOKTYPE INFORMATION.php"><strong><font color=#2F4F2F><i class="fa fa-fw fa-book"></i> BOOKTYPE INFORMATION</font></strong></a></li>
+      <li><a href="SA INFORMATION.php"><strong><font color=#2F4F2F><i class="fa fa-fw fa-user"></i> SA INFORMATION </font></strong></a></li>
       <li class="active"><a href="#"><strong><font color=#2F4F2F><i class="fa fa-fw fa-book"></i> BOOK LOAN INFORMATION</font></strong></a></li>
       <li><a href="https://docs.google.com/document/d/11D9W7nnZJ4Ayrn1X-f0opDXH6hXw43FlCsHG3HTalyY/edit"><strong><font color=#2F4F2F><i class="fa fa-fw fa-question-circle"></i> HELP </font></strong></a></li>
       </ul> 
