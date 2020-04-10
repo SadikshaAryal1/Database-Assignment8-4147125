@@ -113,7 +113,7 @@ table {
 
 <?php
 require('connect.php');
-$result = $conn->query("select * from loan");
+$result = $conn->query("select * from Book_Type");
 ?>
 
 <table border="2" align="center">
