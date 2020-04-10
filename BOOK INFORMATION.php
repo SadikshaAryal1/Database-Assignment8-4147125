@@ -110,20 +110,10 @@ table {
 
 <h2><center><font color="#238E68"><strong>****BOOK INFORMATION****</strong></font></center></h2>
 
+
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "Biology45678";
-$dbname = "library";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) 
-{
-  die("Connection failed: " . $conn->connect_error);
-}
-
+require('connect.php');
+$result = $conn->query("select * from loan");
 ?>
 
 <table border="2" align="center">
