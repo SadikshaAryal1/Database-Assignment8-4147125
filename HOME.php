@@ -63,7 +63,12 @@ table {
 .btn button:hover {
   background-color: #3e8e41;
 }
-  
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 
 </style>
 
@@ -111,6 +116,8 @@ table {
 
  <div> </div>
 <h1><center><font color="#238E68"><strong>****WELCOME TO WEBSTER UNIVESITY LIBRARY SYSTEM****</strong></font></center></h1>
+  
+  <img src="Webster.jpg" alt="Trulli" width="400" height="333" class="center">
 
 <h2><center> Please select the tabs above in the naviagtion bar as per your information requirement</center></h2>
 
