@@ -5,8 +5,8 @@
   Returned_Date VARCHAR(400) NOT NULL,
   Purchase_Date VARCHAR(400) NOT NULL,
   Book_name VARCHAR(400) NOT NULL,
-LIB_Number INT NOT NULL,
-PRIMARY KEY (LIB_Number)
+ISBN_Number INT NOT NULL,
+PRIMARY KEY (ISBN_Number)
 );
 CREATE TABLE Book_Type
 (
