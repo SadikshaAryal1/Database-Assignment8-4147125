@@ -18,7 +18,7 @@ header('location:AddSA.php');
 <html lang="en">
 <head>
 
-  <title>Bootstrap Example</title>
+  <title>Library System Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -123,7 +123,7 @@ $result = $conn->query("select * from Book");
   <td><strong><font color=navy><u>Returned_Date</strong></u></font></td>
   <td><strong><font color=navy><u>Purchase_Date</strong></u></font></td>
   <td><strong><font color=navy><u>Book_name</strong></u></font></td>
-  <td><strong><font color=navy><u>LIB_Number</strong></u></font></td>
+  <td><strong><font color=navy><u>ISBN_Number</strong></u></font></td>
 </tr>
 
 <?php
@@ -140,7 +140,7 @@ if ($result->num_rows > 0) {
     <td>{$row['Returned_Date']}</td>
     <td>{$row['Purchase_Date']}</td>
     <td>{$row['Book_name']}</td>
-    <td>{$row['LIB_Number']}</td>
+    <td>{$row['ISBN_Number']}</td>
 </tr>\n";
     }
 } else {
